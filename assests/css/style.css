@@ -1,14 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Titan+One&display=swap');
+
 body {
-    background-color: bisque;
+    background-color: #8ee36f;
 }
 
 .hero {
     width: 100vw;
     height: calc( 100vh - 56px);
-    background-color: brown;
     position: relative;
-    background: url('../images/anastasia-taioglou-CTivHyiTbFw-unsplash.jpg');
-    background-size: cover;
+    background: url("../images/image0[74].jpeg");
     background-position: center;
-    background-repeat: none;
+    /* background-repeat: none; */
+}
+
+.hero-text {
+    color: red;
+}
+
+.hero-text h1 {
+    font-size: 5rem;
+    font-family: 'Titan One', cursive;
+}
+
+.hero-text p {
+    font-size: 3rem;
+    font-family: 'Titan One', cursive;
 }
